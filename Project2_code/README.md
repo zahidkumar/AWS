@@ -2,8 +2,6 @@ Create a Database and Table:
 
 Connect to your MySQL instance using a MySQL client.
 Run the following SQL to create a database and a table:
-sql
-Copy code
 CREATE DATABASE mydatabase;
 USE mydatabase;
 
@@ -12,6 +10,7 @@ CREATE TABLE users (
     name VARCHAR(100),
     address VARCHAR(255)
 );
+
 Step 2: Create the Web Form
 Create an index.html file:
 
