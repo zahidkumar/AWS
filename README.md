@@ -1,9 +1,10 @@
 Run the Flask Backend:
+pip install flask mysql-connector-python
 
 Start the Flask backend by running the command:
 bash
 Copy code
-python app.py
+    python app.py
 Ensure that the Flask app is running and listening on port 5000 (or any port you choose).
 Open the HTML Form:
 
