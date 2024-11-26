@@ -35,3 +35,41 @@ Frontend (HTML): A simple HTML form that collects data from the user and sends i
 Backend (Flask): A Flask app that handles the POST request, saves the data to the RDS MySQL database, and returns a success message.
 RDS (MySQL): The data is inserted into your MySQL database hosted on RDS.
 This setup allows you to collect data from a user and save it to your RDS MySQL database using Python (Flask) and HTML.
+
+
+==============================
+vim index.html
+  191  sudo vim index.html
+  192  sudo systemctl status httpd
+  193  sudo systemctl start httpd
+  194  sudo yum install mysql
+  195  curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo bash -
+  196  sudo yum update -y
+  197  sudo yum install -y nodejs
+  198  node -v
+  199  npm -v
+  200  mysql
+  201  sudo yum remove mysql
+  202  npm install express mysql2 body-parser
+  203  mysql
+  204  sudo npm install express mysql2 body-parser
+  205  cd
+  206  ls /var/www/html/
+  207  cd /var/www/html/
+  208  mysql
+  209  sudo yum install mysql -y
+  210  mysql -h database-1.cv2o8o4me44x.ap-south-1.rds.amazonaws.com -u admin -padmin123
+  211  ls
+  212  sudo vim Node.js
+  213  sudo npm init -y
+  214  sudo su
+  node Node.js 
+    2  vim Node.js 
+    3  vim Node.js 
+    4  cat index.html 
+    5  node Node.js 
+    6  vim Node.js 
+    7  node Node.js 
+    8  exit
+    9  cd /var/www/html/
+   10  npm install cors
